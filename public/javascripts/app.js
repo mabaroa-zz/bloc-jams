@@ -152,7 +152,6 @@ require.register("scripts/album", function(exports, require, module) {
   var offHover = function(event) {
     var songNumberCell = $(this).find('.song-number');
     var songNumber = songNumberCell.data('song-number');
-    
     if (songNumber !== currentlyPlayingSong) {
       songNumberCell.html(songNumber);
     }

@@ -6,7 +6,8 @@ body {
   color: white;
   min-height: 100%;
   background: -webkit-radial-gradient(#2b1339, #380c77);
-  background: radial-gradient(#2b1339, #380c77); }
+  background: radial-gradient(#2b1339, #380c77);
+  padding-bottom: 150px; }
 
 body.landing .navbar {
   margin-bottom: 0; }
@@ -25,7 +26,8 @@ body.landing .navbar {
   font-weight: 300; }
 
 body.landing {
-  background: #5b5579; }
+  background: #5b5579;
+  padding-bottom: 150px; }
 
 .hero-content {
   background: #2f1d57;
