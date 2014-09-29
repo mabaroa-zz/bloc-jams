@@ -60,7 +60,7 @@ var buildAlbumThumbnail = function() {
     $(this).find('.collection-album-image-overlay').remove();
    };
  
-   $collection.find('.collection-album-image-container').hover(onHover);
+   $collection.find('.collection-album-image-container').hover(onHover,offHover);
 
   });
 }
