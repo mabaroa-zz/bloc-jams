@@ -1,6 +1,6 @@
 .player-bar {
     position: fixed;
-    bottom: 0;
+   bottom: 0;
     left: 0;
     right: 0;
     height: 150px;
@@ -42,14 +42,13 @@
       .play-pause {
         margin-right: 60px;
         font-size: 30px
-      }
+        }
     }
  
     .currently-playing {
       width: 50%;
       text-align: center;
       position: relative;
- 
       .song-name, .artist-name {
         text-align: center;
         margin: 0;
