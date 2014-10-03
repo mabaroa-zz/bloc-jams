@@ -21,10 +21,12 @@
            <br/>
            <a ui-sref="album"> {{ album.artist }} </a>
            <br/>
-           {{ album.songs.length }} songs
-           <br/>
-         </p>
-       </div>
-     </div>
-   </div>
- </div>
+           <!-- body of collection view -->
+          {{ album.songs.length }} songs
+          <br/>
+        </p>
+      </div>
+    </div>
+  </div>
+  <ng-include src="'/templates/player_bar.html'"></ng-include>
+</div>
