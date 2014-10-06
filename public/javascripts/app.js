@@ -388,6 +388,10 @@ var changeAlbumView = function(album) {
 }]);
  
  blocJams.service('SongPlayer', function() {
+    var trackIndex = function(album, song) {
+     return album.songs.indexOf(song);
+   };
+
    return {
      currentSong: null,
      currentAlbum: null,
